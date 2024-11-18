@@ -15,7 +15,11 @@ C:/Users/Muhammad Ali/Documents/GitHub/Fabius_Triumph/Fabius' Triumph
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 61141
+=======
+60258
+>>>>>>> Stashed changes
 Successfully changed project path to: C:/Users/Muhammad Ali/Documents/GitHub/Fabius_Triumph/Fabius' Triumph
 C:/Users/Muhammad Ali/Documents/GitHub/Fabius_Triumph/Fabius' Triumph
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +53,21 @@ C:/Users/Muhammad Ali/Documents/GitHub/Fabius_Triumph/Fabius' Triumph
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [17320] Host "[IP] 192.168.10.14 [Port] 0 [Flags] 2 [Guid] 561844352 [EditorId] 561844352 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G1TTK79) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [17320] Host "[IP] 192.168.10.14 [Port] 0 [Flags] 2 [Guid] 561844352 [EditorId] 561844352 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G1TTK79) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
 Refreshing native plugins compatible for Editor in 34.03 ms, found 3 plugins.
+=======
+Player connection [9532] Host "[IP] 192.168.10.14 [Port] 0 [Flags] 2 [Guid] 1601038888 [EditorId] 1601038888 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G1TTK79) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9532] Host "[IP] 192.168.10.14 [Port] 0 [Flags] 2 [Guid] 1601038888 [EditorId] 1601038888 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G1TTK79) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 45.50 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.37f1 (340ba89e4c23)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
@@ -70,6 +83,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -81,10 +95,24 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.690 seconds
 Domain Reload Profiling: 1742ms
 	BeginReloadAssembly (394ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.042861 seconds.
+- Loaded All Assemblies, in  2.004 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.504 seconds
+Domain Reload Profiling: 3501ms
+	BeginReloadAssembly (660ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (3ms)
 	RebuildCommonClasses (116ms)
 	RebuildNativeTypeToScriptingClass (27ms)
@@ -108,6 +136,31 @@ Domain Reload Profiling: 1742ms
 			BeforeProcessingInitializeOnLoad (6ms)
 			ProcessInitializeOnLoadAttributes (373ms)
 			ProcessInitializeOnLoadMethodAttributes (132ms)
+=======
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (165ms)
+	RebuildNativeTypeToScriptingClass (181ms)
+	initialDomainReloadingComplete (276ms)
+	LoadAllAssembliesAndSetupDomain (711ms)
+		LoadAssemblies (654ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (703ms)
+			TypeCache.Refresh (696ms)
+				TypeCache.ScanAssembly (643ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1205ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (34ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (835ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,14 +168,20 @@ Domain Reload Profiling: 1742ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.912 seconds
 Refreshing native plugins compatible for Editor in 17.09 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  3.288 seconds
+Refreshing native plugins compatible for Editor in 19.55 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  7.820 seconds
 Domain Reload Profiling: 9726ms
 	BeginReloadAssembly (503ms)
@@ -164,6 +223,49 @@ Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 33 unused Assets / (57.7 KB). Loaded Objects now: 3556.
 Memory consumption went from 118.9 MB to 118.9 MB.
 Total: 6.671100 ms (FindLiveObjects: 0.638000 ms CreateObjectMapping: 0.552600 ms MarkObjects: 5.330600 ms  DeleteObjects: 0.148400 ms)
+=======
+- Finished resetting the current domain, in  3.270 seconds
+Domain Reload Profiling: 6548ms
+	BeginReloadAssembly (860ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (199ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (295ms)
+	LoadAllAssembliesAndSetupDomain (1866ms)
+		LoadAssemblies (1471ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (909ms)
+			TypeCache.Refresh (814ms)
+				TypeCache.ScanAssembly (733ms)
+			ScanForSourceGeneratedMonoScriptInfo (74ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3272ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (36ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (308ms)
+			ProcessInitializeOnLoadAttributes (1930ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (54ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 38.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3555.
+Memory consumption went from 119.2 MB to 119.1 MB.
+Total: 8.752800 ms (FindLiveObjects: 0.448900 ms CreateObjectMapping: 0.442400 ms MarkObjects: 7.170100 ms  DeleteObjects: 0.689600 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,6 +282,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 267533.190415 seconds.
   path: Assets/T_cloth_D.png
   artifactKey: Guid(3b5d560bf3d60e548b2465bbee47b673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -244,10 +347,17 @@ Received Import Request.
   path: Assets/Knight_All 1.fbx
   artifactKey: Guid(0a28d4f9a1d39af4eb9a77763c7c2300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Knight_All 1.fbx using Guid(0a28d4f9a1d39af4eb9a77763c7c2300) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+=======
+  Time since last request: 260086.368082 seconds.
+  path: Assets/Spartan.obj
+  artifactKey: Guid(56e05465cce787447b37ade86c642b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spartan.obj using Guid(56e05465cce787447b37ade86c642b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+>>>>>>> Stashed changes
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+<<<<<<< Updated upstream
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
@@ -457,3 +567,56 @@ Start importing Assets/Knight_All 1.fbx using Guid(0a28d4f9a1d39af4eb9a77763c7c2
  -> (artifact id: 'bd75b13ea7911b313a692f1571757128') in 3.027389 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 522
+=======
+ -> (artifact id: 'f7c2684ff58d9033163f0293da3252f5') in 1.635955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Spartan_weapons2-bl.obj
+  artifactKey: Guid(9320c7b12d8566f47b518447173c8b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spartan_weapons2-bl.obj using Guid(9320c7b12d8566f47b518447173c8b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ecd94e62e840d64710943c5ba49ffe41') in 0.183626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001746 seconds.
+  path: Assets/W2.png
+  artifactKey: Guid(829af6687c08fdf488a71d243b8eda92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/W2.png using Guid(829af6687c08fdf488a71d243b8eda92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a8f09107d6eb3bff4aaafdfba8f11aee') in 0.112852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000773 seconds.
+  path: Assets/2 (1).png
+  artifactKey: Guid(66391e7548d0ec54690ebb0467000a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 (1).png using Guid(66391e7548d0ec54690ebb0467000a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4918c53afe2644f6b420a08581b3f025') in 0.048828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/2 (2).png
+  artifactKey: Guid(847915a75f19b2f44bf726c22f9b8dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 (2).png using Guid(847915a75f19b2f44bf726c22f9b8dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd5386f1bfc7f354da41c4acf2ebd5dda') in 0.064873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+>>>>>>> Stashed changes
